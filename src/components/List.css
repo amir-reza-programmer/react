@@ -1,0 +1,45 @@
+.list{
+    padding:10px 5vw;
+    background-color: rgb(27, 27, 27);
+    border-radius: 15px;
+}
+.year-filter{
+display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    margin: 10px 0;
+}
+.year-filter span{
+    color: white;
+    font-size: 25px;
+}
+
+.year-filter select{
+    font-size: 25px;
+    padding: 9px;
+}
+.year-filter + h3{
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
+}
+.form-parent{
+    min-height: 50px;
+    margin: 5px 0;
+    margin-bottom: 25px;
+    background-color: rgb(146, 115, 224);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.form-parent button{
+    font-size: 22px;
+    background-color: rgb(110, 0, 141);
+    color: white;
+    padding: 15px 30px;
+    border-color: rgb(110, 0, 141);
+    border-radius: 10px;
+}

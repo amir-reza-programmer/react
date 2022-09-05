@@ -1,0 +1,21 @@
+.expence-detail{
+    border-radius: 10px;
+    border: solid 2px rgb(20, 9, 0);
+    background-color: rgb(14, 0, 102);
+    margin: 2px 0; 
+    display: flex;
+    color: white;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.expence-detail__left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+} 
+/* .expence-detail__right{
+    flex: 3;
+} */

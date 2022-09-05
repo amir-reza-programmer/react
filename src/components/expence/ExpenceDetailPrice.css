@@ -1,0 +1,8 @@
+.expence-detail__price{
+    padding: 20px 40px;
+    border: solid white 1px;
+    border-radius: 20px;
+    background-color: rgb(110, 0, 141);
+    font-size: 25px;
+    font-weight: bold;
+}

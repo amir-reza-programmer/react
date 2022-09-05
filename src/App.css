@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+*{
+  box-sizing: border-box;
+  
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
 .App {
   text-align: center;
+  margin: 5px 15%;
 }
 
 .App-logo {
