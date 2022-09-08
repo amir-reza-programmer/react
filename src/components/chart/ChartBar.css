@@ -1,0 +1,25 @@
+.chart-bar-parent{
+    display: flex;
+    /* width: 30px; */
+    flex-direction: column;
+    align-items: center;
+}
+.chart-bar-column {
+    height: 100px;
+    width: 10px;
+    /* display: flex; */
+    /* align-content: flex-end; */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    border: solid 0.5px #343434;
+    background-color: #c2a7dc;
+}
+
+.chart-bar-fill {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #011067;
+}

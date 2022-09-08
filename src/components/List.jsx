@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ExpenceDetail from "./expence/ExpenceDetail";
 import ExpenceForm from "./expence/ExpenceForm";
+import Chart from "./chart/Chart";
 import "./List.css";
 
 const List = () => {
@@ -62,9 +63,19 @@ const List = () => {
       </button>
     </div>
   );
+
+  // useEffect(() => {
+  //   listItems.forEach(element => {
+
+  //   });
+  //   setChartData
+  //   listItems.map(item => {value:item.})
+  // },[])
+
   return (
     <React.Fragment>
       {showForm}
+
       <div className="list">
         <div className="year-filter">
           <span>filter by: </span>
@@ -73,6 +84,7 @@ const List = () => {
             {yearsOptions}
           </select>
         </div>
+        <Chart subsetList={subsetList} />
         {listContent}
       </div>
     </React.Fragment>
